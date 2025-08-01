@@ -1,0 +1,24 @@
+/Users/sakurastephen/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🕓 脚本运行时间：2025-07-31 15:40:01.286235
+✅ 数字苏豪 访问正常，响应时间：1.05 秒
+
+✅ jc6 访问正常，响应时间：0.78 秒
+/Users/sakurastephen/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🕓 脚本运行时间：2025-07-31 15:42:01.175852
+✅ 数字苏豪 访问正常，响应时间：0.03 秒
+
+✅ jc6 访问正常，响应时间：0.29 秒
+/Users/sakurastephen/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🕓 脚本运行时间：2025-07-31 16:03:00.534086
+✅ 数字苏豪 访问正常，响应时间：0.79 秒
+
+✅ jc6 访问正常，响应时间：0.76 秒
+/Users/sakurastephen/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🕓 脚本运行时间：2025-07-31 17:34:00.645179
+✅ 数字苏豪 访问正常，响应时间：0.07 秒
+
+✅ jc6 访问正常，响应时间：0.18 秒

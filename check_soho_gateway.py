@@ -7,6 +7,7 @@ import datetime
 URLS = [
     ("数字苏豪", "https://gw.meetsoho.cn/"),
     ("jc6", "http://oa.meetsoho.cn/"),
+    ("财务ncc","http://10.0.0.106:9080/nccloud/resources/uap/rbac/login/main/index.html"),
 ]
 TIMEOUT_SECONDS = 10
 SERVER_CHAN_KEY = "SCT291245TtKrGuVTmcQMsgooTANCv3uTD"
@@ -31,10 +32,10 @@ if __name__ == "__main__":
     print(f"🕓 脚本运行时间：{datetime.datetime.now()}")  # ✅ 运行日志（方便调试）
 
     today = datetime.date.today()
-    title = f"🌐 数字苏豪和jc6访问性检测（{today}）"
+    title = f"🌐 数字苏豪，jc6，财ncc访问性检测（{today}）"
     contents = []
 
-    for site_name, url in URLS:
+    for site_name, url in URLS:  
         success, info = check_website(url)
         if success:
             contents.append(f"✅ {site_name} 访问正常，响应时间：{info:.2f} 秒")
@@ -42,5 +43,5 @@ if __name__ == "__main__":
             contents.append(f"❌ {site_name} 访问失败，错误信息：{info}")
 
     content = "\n\n".join(contents)
-    print(content)  # ✅ 控制台打印内容（将记录到日志）
-    send_wechat_notification(title, content)
+    print(content)  # ✅ 控制台打印内容（将记录到日志 ）
+    send_wechat_notification(title, content)                                                                                     
